@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-first',
   standalone: true,
   imports: [RouterLink, RouterLinkActive, RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.sass'
+  templateUrl: './first.component.html',
+  styleUrl: './first.component.sass'
 })
-export class AppComponent {
+export class FirstComponent {
 
 }
